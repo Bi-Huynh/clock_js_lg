@@ -1,0 +1,19 @@
+{
+  "name": "clock_js_lg",
+  "version": "1.0.0",
+  "description": "project viết về 1 cái đồng hồ bấm giờ, học cách sử dụng js, và sử dụng github, lg: learn and github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bi-Huynh/clock_js_lg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bi-Huynh/clock_js_lg/issues"
+  },
+  "homepage": "https://github.com/Bi-Huynh/clock_js_lg#readme"
+}
