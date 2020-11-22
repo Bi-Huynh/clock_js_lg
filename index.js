@@ -3,7 +3,6 @@ var seconds = document.getElementById('second');
 var miliseconds = document.getElementById('milisecond');
 var btnStart = document.getElementById('btnStart');
 var btnPause = document.getElementById('btnPause');
-var btnStop = document.getElementById('btnStop');
 var btnReset = document.getElementById('btnReset');
 
 btnStart.onclick = function () {
