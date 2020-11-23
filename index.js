@@ -10,6 +10,18 @@ btnStart.onclick = function () {
     interval = setInterval(starTime, 10);
 }
 
+btnPause.onclick = function () {
+    clearInterval(interval);
+}
+
+btnReset.onclick = function () {
+    clearInterval(interval);
+    second = 0;
+    milisecond = 0;
+    seconds.innerHTML = `0${milisecond}`;
+    miliseconds.innerHTML = `0${milisecond}`;
+}
+
 function starTime() {
     console.log("start");
     milisecond++;
